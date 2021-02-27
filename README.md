@@ -4,4 +4,10 @@
 
 ---
 
-In this project, i've tried to replicate the Lyft's landing page. [Link to Reference](https://github.com/arthur-lage/landing-page-lyft/blob/main/ref.png)
+In this project, I've tried to replicate the Lyft's landing page. [Link to Reference](https://github.com/arthur-lage/landing-page-lyft/blob/main/ref.png)
+
+---
+
+# How can I use it?
+
+[Click here](https://landing-page-lyft.vercel.app)
