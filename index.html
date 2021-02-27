@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyft Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href=""><img src="images/logo.png" alt="Logo"></a>
+            <ul>
+                <li><a href="">CITIES</a></li>
+                <li><a href="">DRIVE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">PARTNERS</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </nav>
+
+        <h1>Make up to $35/hour <br> Driving your car</h1>
+
+        <div class="register-menu">
+            <form id="register-form">
+                <h2>Apply Now</h2>
+                <p>Enter your info, and then download the Lyft app to create your driver profile</p>
+                <input class="input" type="text" name="name" id="name" placeholder="First name" required>
+
+                <input class="input" type="text" name="last-name" id="last-name" placeholder="Last name" required> 
+
+                <input class="input" type="email" name="email" id="email" placeholder="Email" required>
+
+                <input class="input" type="text" name="city" id="city" placeholder="City" required>
+
+                <input class="input" type="number" name="phone" id="phone" placeholder="Phone number" required>
+
+                <input class="input" type="text" name="promo-code" id="promo-code" placeholder="Promo code (optional)">
+                    <br>
+                <input type="checkbox" required name="terms-agree" id="terms-agree">
+                <label for="terms-agree">I agree to the Lyft Terms</label>
+                <br>
+                <button type="submit" id="become-driver-button"><strong>BECOME A DRIVER</strong></button>
+                <p>Already applied? <a href="">Check the status of your application here.</a></p>
+            </form>
+        </div>
+        
+
+        <footer>
+            <h2><strong>See How Much Money Can You Make</strong></h2>
+            <p>How many hours do you want to drive this week?</p>
+            <input class="footer-input" type="number" name="footer-hours-week" id="footer-hours-week" placeholder="Hours">
+            <input class="footer-input" type="text" name="footer-city" id="footer-city" placeholder="City">
+            <button type="button" id="footer-calculate-button">CALCULATE</button>
+        </footer>
+    </div>
+</body>
+</html>
