@@ -10,4 +10,4 @@ In this project, I've tried to replicate the Lyft's landing page. [Link to Refer
 
 # How can I use it?
 
-[Click here](https://landing-page-lyft.vercel.app)
+[Click here](https://landing-page-lyft-arthur-lage.vercel.app)
